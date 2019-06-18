@@ -1,0 +1,14 @@
+{
+  "name": "resolver-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "package": "zip -r function.zip index.js node_modules/"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.477.0"
+  }
+}
